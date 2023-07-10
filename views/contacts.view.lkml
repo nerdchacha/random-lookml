@@ -21,6 +21,7 @@ view: contacts {
   dimension: email {
     type: string
     sql: ${TABLE}."email" ;;
+    required_access_grants: [testangel]
   }
 
   dimension: phone {
