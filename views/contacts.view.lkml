@@ -16,6 +16,7 @@ view: contacts {
   dimension: contact_name {
     type: string
     sql: ${TABLE}."contact_name" ;;
+    required_access_grants: [testangel]
   }
 
   dimension: email {
