@@ -8,6 +8,12 @@ datagroup: random_default_datagroup {
   max_cache_age: "1 hour"
 }
 
+
+access_grant: testangel {
+  user_attribute: testangel
+  allowed_values: ["yes"]
+}
+
 persist_with: random_default_datagroup
 
 explore: contacts {

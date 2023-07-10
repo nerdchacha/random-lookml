@@ -26,6 +26,7 @@ view: contacts {
   dimension: phone {
     type: string
     sql: ${TABLE}."phone" ;;
+    required_access_grants: [testangel]
   }
 
   measure: count {
